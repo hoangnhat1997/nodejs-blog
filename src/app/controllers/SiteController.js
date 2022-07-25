@@ -3,6 +3,10 @@ class SiteController {
   index(req, res) {
     res.render("home");
   }
+  // [POST] /login
+  login(req, res) {
+    res.render("login");
+  }
   // [GET] /search
   search(req, res) {
     res.render("search");
